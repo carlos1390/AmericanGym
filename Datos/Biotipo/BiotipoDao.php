@@ -1,7 +1,7 @@
 <?php
 require_once $_SERVER["DOCUMENT_ROOT"].'/AmericanGym/DataBase/DataAcces.php';
 /**
-* Clase encargada de gestionar objeto genero
+* Clase encargada de gestionar objeto genero, preuba realizada por juank
 */
 class BiotipoDao
 {
