@@ -1,0 +1,75 @@
+		<!DOCTYPE html>
+		<!doctype html>
+		<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>Iniciar sesión en American Gym</title>
+			<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/style.css">			
+			
+			<style type="text/css">
+
+			/*escritorio*/
+			@media (min-width:1200px){
+				/*body {color:red;}*/
+
+			}
+
+			/*escritorio pequeno o tablet*/
+			@media(min-width:768px){
+				
+			}
+
+			/*tablet o smartphone*/
+			@media(max-width:767px){
+				/*body {color:blue;}*/
+			}
+
+			/*smartphone*/
+			@media(max-width:470px){
+				/*body {color:yellow;}*/
+
+
+			}
+
+			#contenedor_general{
+				max-width: 1024px;
+			}
+		  body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #f5f5f5;
+      }
+
+			</style>
+		</head>
+		<body>
+
+
+			
+				<div class="span12 ">
+					<br>
+					<br>
+					<br>
+					<br>
+			
+
+				 <form class="form-signin" action="validar.php" method="post">
+                     <h2 class="form-signin-heading">Ingresa tus datos</h2>
+                     <input type="text" class="input-block-level" placeholder="Usuario" name="user">
+                     <input type="password" class="input-block-level" placeholder="Contraseña" name="password">
+                     <label class="checkbox">
+                     <input type="checkbox" value="remember-me"> Recordarme
+                     </label>
+                     <button class="btn" type="submit">Ingresar</button>
+                  </form>
+			</div>
+			
+	
+
+			<!--Scripts requeridos-->
+			<script src="js/jquery.js"></script>
+			<script src="js/bootstrap.min.js"></script><!--botones,link desplegables-->
+			<script src="js/bootstrap-transition.js"></script>
+		</body>
+		</html>

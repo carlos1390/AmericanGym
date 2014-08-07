@@ -1,0 +1,235 @@
+		<!DOCTYPE html>
+		<!doctype html>
+		<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>AmericanGYmClub</title>
+			<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/style.css">			
+			
+			<style type="text/css">
+
+			/*escritorio*/
+			@media (min-width:1200px){
+				/*body {color:red;}*/
+
+			}
+
+			/*escritorio pequeno o tablet*/
+			@media(min-width:768px){
+				
+			}
+
+			/*tablet o smartphone*/
+			@media(max-width:767px){
+				/*body {color:blue;}*/
+			}
+
+			/*smartphone*/
+			@media(max-width:470px){
+				/*body {color:yellow;}*/
+
+
+			}
+			.text-big{
+				font-size: 300px;
+				line-height: 320px;
+			}
+
+			#slider img{
+				max-width: 100%;
+
+			}
+
+			#contenedor_general{
+				max-width: 1024px;
+			}
+
+			</style>
+		</head>
+		<body>
+			<div class="container" id="contenedor_general">
+				<!--inicio Header-->
+				<div class="row-fluid">
+					<div class="span12 well">
+						<div class="span1">
+							<img src="img/logotipo.png" alt="logotipo" class="img-rounded">
+						</div>
+						<div class="span11">
+							<h2>American Gym Club</h2>
+							<h5>Centro De Acondicionamiento Fisico</h5>
+							<!--<img src="img/titulo1.png" alt="">-->
+						</div>
+					</div>
+				</div>
+				<!--/.navbar -->
+				<div class="navbar ">
+					<div class="navbar-inner">
+						<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<!--<a class="brand" href="#"><I class="icon-home"></I>INICIO</a>-->
+						<div class="nav-collapse collapse">
+							<ul class="nav">								
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">PERSONA<b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Gestionar personas</a></li>
+										<li><a href="#">Registar medidas</a></li>
+										<li class="divider"></li>
+									</ul>
+								</li>
+								<li><a href="#">CARTERA</a></li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">CONFIGURACION<b class="caret"></b></a>
+									<ul class="dropdown-menu">
+										<li><a href="#">Tipo de documento</a></li>
+										<li><a href="#">Genero</a></li>
+										<li><a href="#">Ocupacion</a></li>
+										<li><a href="#">Unidades de medida</a></li>
+										<li><a href="#">Biotipos</a></li>
+										<li><a href="#">Eps</a></li>
+										<li><a href="#">Conceptos de cartera</a></li>
+										<li><a href="#">Horarios</a></li>
+										<li><a href="#">Municipios</a></li>
+										<li><a href="#">Departamentos</a></li>
+										<li><a href="#">Deficiencias Corporales</a></li>
+										<li class="divider"></li>
+									</ul>
+								</li>
+								<li><a href="#">CERRAR SESION</a></li>
+							</ul>
+							<a href=""><img class="pull-right"src="img/google_01.png" alt=""></a>
+							<a href=""><img class="pull-right"src="img/youtube_01.png" alt=""></a>
+							<a href=""><img class="pull-right"src="img/twitter_01.png" alt=""></a>
+							<a href=""><img class="pull-right"src="img/facebook_01.png" alt=""></a>&nbsp;
+							<font face="Nonito" color="7F7F7F"class="pull-right"></font>&nbsp;&nbsp;
+						</div>
+						<br>
+					</div>
+				</div>
+				<!--fin navbar -->
+				<div class="row-fluid">
+					
+					<!--aqui contenido variable-->
+
+					<div class="span12 well">
+						<div class="page-header">
+							<h4>Gestion De Generos</h4>
+						</div>
+
+						<form action="" class="form-inline">	
+							
+
+							<div class="input-append">
+								<input type="text">
+								<input type="submit" class="btn" value="Crear Nuevo">
+
+							</div>			
+					<!--
+					<label for="">&nbsp;</label>
+
+					<div class="input-append">
+
+						<input class="" id="" type="text">
+						<button class="btn" type="button">Buscar</button>
+
+					</div>
+				-->						
+			</form>
+		</div>
+		<!--Tabla-->
+		<div class="row-fluid">
+			<div class="span12">
+				
+				<h4>Registros Existentes</h4>
+
+				<table class="table table-bordered table-striped table-hover table-condensed " >
+					<tr>
+						<th>#</th>
+						<th>NOMBRE</th>
+						<th>EDITAR</th>
+						<th>ELIMINAR</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>Masculino</td>
+						<td><a href="#" class="btn icon-edit"></a></td>
+						<td><a href="#" class="btn icon-remove"></a></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>Femenino</td>
+						<td><a href="#" class="btn icon-edit"></a></td>
+						<td><a href="#" class="btn icon-remove"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!--Paginador-->
+		<div class="row-fluid">
+			<div class="span12">
+
+				<div class="pagination pagination-centered">
+					<ul>
+						<li><a href="#">First</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">Last</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--Fin contenido variable-->
+	</div>
+	<div id="iten" >					
+		<hr><!--Separa el contenido de el pie de la pagina-->
+		<div class="row-fluid"align="center">
+			<div class="span4">
+				<div class="">
+					<br>
+					<font face="Nonito" size=6 color="#f10ea8" ><p>HORARIOS</p></font>
+					<br>
+					<table class="table" >
+						<img src="img/horarios_fondo1.png" alt="" class="img-rounded">
+					</div>
+				</table>							​                               	                     
+			</div>
+		</div>
+		<div class="span4">
+			<div class="">
+				<br>
+				<font face="Nonito" size=6 color="#f10ea8" ><p>DIRECCION</p></font>
+				<table class="table background=img/direccion.png">
+					<br>
+					<img src="img/direccion.png" alt="" class="img-rounded">
+				</table>							​                               	                     
+			</div>
+		</div>
+		<div class="span4">
+			<div class="">
+				<br>
+				<font face="Nonito" size=6 color="#f10ea8" ><p>ENCUENTRANOS</p></font>
+				<br>
+				<iframe width="300" height="198" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;t=h&amp;ll=1.856279,-76.042728&amp;spn=0.008321,0.017166&amp;z=15&amp;output=embed">
+				</iframe>
+				<br />
+				<small>
+					<a href="https://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;t=h&amp;ll=1.856279,-76.042728&amp;spn=0.008321,0.017166&amp;z=15&amp;source=embed" style="color:#0000FF;text-align:left">Ver Mapa Completo
+					</a>
+				</small>       	                   
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!--Scripts requeridos-->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script><!--botones,link desplegables-->
+<script src="js/bootstrap-transition.js"></script>
+</body>
+</html>
